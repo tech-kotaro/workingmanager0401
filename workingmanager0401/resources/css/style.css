@@ -1,0 +1,174 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  overflow: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+body{
+
+}
+h1{
+}
+.edit{
+  width: 10%;
+  text-align: center;
+}
+.edit-btn{
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  background-color: rgb(131, 10, 10);
+  box-shadow: 0px 3px 1px 0px rgba(95, 95, 95, 0.5);
+  color: white;
+}
+.delete-btn{
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  background-color: rgb(7, 76, 141);
+  box-shadow: 0px 3px 1px 0px rgba(95, 95, 95, 0.5);
+  color: white;
+}
+.kintai,.work-reports-index{
+  width: 80%;
+  margin: 1% auto 5%;
+}
+.employee-index{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.kintai-header,.employee-index-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.employee-index-table,.work-reports-table{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.employee-index-table{
+  border-collapse:  collapse; 
+}
+.kintai-table{
+  width: 100%;
+  margin: 0 auto;
+}
+.employee-index-table th,.employee-index-table td,
+.kintai-table th,.kintai-table td,
+.work-reports-table th,.work-reports-table td{
+  border: 1px solid black;
+}
+.kintai-table,.work-reports-table {
+  border-collapse:  collapse;     /* セルの線を重ねる */
+  text-align: center;
+}
+
+.kintai-table-wrapper{
+  margin-bottom: 30px;
+}
+.kintai-table th,.work-reports-table th,.employee-index-table th{
+  background: rgb(35, 121, 9);
+  color: white;
+}
+.return,.login-btn{
+  display: inline-block;
+  padding: 5px;
+  box-shadow: 0px 0px 5px gray;
+  color:white ;
+  cursor: pointer;
+  text-decoration: none;
+  background: rgb(15, 140, 161);
+}
+.login_id_wrapper{
+  margin-top: 10px;
+}
+.password_wrapper{
+
+}
+.register,.update{
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0px 0px 5px gray;
+  color:white ;
+  text-decoration: none;
+  background: rgb(15, 140, 161);
+  text-align: center;
+  cursor: pointer;
+}
+
+.return02{
+  margin-left: 5px;
+}
+.detail-btn{
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  box-shadow: 3px 2px 1px 0px rgba(221, 221, 221, 0.5);
+  background: rgb(87, 4, 4);
+}
+.submit-td{
+  background: rgb(75, 6, 6);
+}
+.work_reports-create-table input[type="text"],
+.work_reports-create-table textarea,
+.work_reports-edit-table input[type="text"],
+.work_reports-edit-table textarea{
+  width: 100%;
+}
+input,textarea{
+  border: none;
+  outline: none;
+}
+.work_reports-create-table,.work_reports-edit-table{
+  width: 80%;
+  margin: 0 auto;
+}
+.work_reports-create-table td,.work_reports-edit-table td{
+  margin: 0 auto;
+}
+.work_reports{
+  background: hsl(205, 100%, 94%);
+  width: 40%;
+  padding: 20px 0;
+  margin:0 auto;
+  margin-top: 4%;
+  text-align: center;
+}
+.work_reports-login{
+  background: hsl(205, 100%, 94%);
+  width: 40%;
+  padding: 20px 0;
+  margin:0 auto;
+  margin-top: 4%;
+  text-align: center;
+}
+.work_reports-edit{
+  background: hsl(205, 100%, 94%);
+  width: 40%;
+  padding: 20px 0;
+  margin:0 auto;
+  margin-top: 4%;
+  text-align: center;
+}
+.work_reports-end{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+.work_reports-end p{
+  margin-bottom: 20px;
+}
+.summary{
+  margin-top: 5px;
+}
+.employee-index-table td{
+  text-align: center;
+}
+
